@@ -368,6 +368,8 @@ footer {
   .infosmallbox {
     flex-direction: column;
     overflow: hidden;
+    width: 100%;
+    border: 1px solid red;
   }
 
 .infosmallbox img {
@@ -375,7 +377,6 @@ footer {
   width: 100%;
   height: 200px;
   padding: 0;
-  object-fit: cover;
 }
 
 .infosmallbox.gray {
