@@ -48,9 +48,7 @@ nav li {
   background-color: #d8d8d8;
 }
 
-.bannerimg {
-  background-image: url("../../resources/Images/banner.jpg");
-  background-size: cover;
+.banner img {
   width: 60%;
   height: 800px;
   display: block;
@@ -94,7 +92,7 @@ nav li {
 
 .infobigbox img {
   width: 100%;
-  height: 60%;
+  height: 70%;
   padding: 32px 0px 12px 24px;
   display: block;
   margin-right: 0;
@@ -110,33 +108,40 @@ nav li {
   margin-top: 0;
 }
 
+.infotext p {
+  margin-bottom: 48px;
+}
+
 .infotext span {
   font-size: 12px;
 }
 
 .infosmallboxes {
   width: 40%;
+  margin-left: 56px;
   padding-top: 20px;
-  display: block;
-  margin-left: 50px;
   padding-bottom: 32px;
+  display: block;
   text-align: left;
+}
+
+.infosmallboxes img {
+  margin: 0;
+  padding-left: 16px;
 }
 
 .infosmallbox {
   display: flex;
-}
-
-.infosmallbox img {
-  width: 35%;
-  height: 35%;
-  padding: 16px;
+  width: 100%;
+  height: 30%;
+  padding: 16px 0px 16px 0px;
 }
 
 .infosmallboxtext {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 32px;
 }
 
 .infosmallboxtext h3 {
@@ -151,6 +156,10 @@ nav li {
 
 .infosmallbox.gray {
   background-color: #d8d8d8;
+}
+
+.infosmallbox.gray img {
+  padding-left: 16px;
 }
 
 .courses {
@@ -275,13 +284,7 @@ footer {
   padding: 0px 24px;
 }
 
-
-.infotext p {
-  border: 1px solid red;
-}
 /*display:none desktop code*/
-
-
 @media only screen and (min-width: 481px) {
 .headermobile {
   display: none;
@@ -321,7 +324,7 @@ footer {
     align-items: center;
   }
 
-  .bannerimg {
+  .banner img {
     background-image: url("../../resources/Images/banner.jpg");
     background-size: cover;
     height: 180px;
@@ -354,6 +357,7 @@ footer {
 /*info*/
   .info {
     flex-direction: column;
+    width: 100%;
   }
 
   .infobigbox {
@@ -361,33 +365,31 @@ footer {
   }
 
   .infosmallboxes {
-    width: 90%;
-    margin: 0px 16px 0px 16px;
+    width: 100%;
+    margin: 16px 0px 0px 0px;
+    padding: 0;
   }
 
   .infosmallbox {
     flex-direction: column;
-    overflow: hidden;
     width: 100%;
-    border: 1px solid red;
+    padding: 0;
+    margin: 0;
   }
 
-.infosmallbox img {
-  margin: 0;
-  width: 100%;
-  height: 200px;
-  padding: 0;
-}
+  .infosmallbox img {
+    padding: 0px 16px;
+  }
 
-.infosmallbox.gray {
+  .infosmallbox.gray {
   background-color: white;
 }
 
-.infosmallboxtext {
+  .infosmallboxtext {
   padding: 20px 0px 16px 16px;
 }
 
-.readmore {
+  .readmore {
   color: blue;
 }
 
