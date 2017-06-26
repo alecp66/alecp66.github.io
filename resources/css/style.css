@@ -49,10 +49,10 @@ nav li {
 }
 
 .banner img {
-  width: 60%;
-  height: 800px;
-  display: block;
-  margin: 32px 40px 32px 24px;
+  width: 1000px;
+    height: auto;
+    display: block;
+    margin: 32px 40px 32px 24px;
 }
 
 .bannertext {
@@ -87,15 +87,16 @@ nav li {
 
 .infobigbox {
   display: inline;
-  width: 60%;
+    width: 770px;
+    height: auto;
 }
 
 .infobigbox img {
-  width: 100%;
-  height: 70%;
-  padding: 32px 0px 12px 24px;
-  display: block;
-  margin-right: 0;
+  width: 800PX;
+    height: auto;
+    padding: 32px 0px 12px 24px;
+    display: block;
+    margin-right: 0
 }
 
 .infotext {
